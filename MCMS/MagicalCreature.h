@@ -1,5 +1,5 @@
 //
-//  MythicalCreature.h
+//  MagicalCreature.h
 //  MCMS
 //
 //  Created by Brad Shultz on 1/14/14.
@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MythicalCreature : NSObject
+@interface MagicalCreature : NSObject
+
+@property NSString *name;
+@property NSString *description;
 
 @end

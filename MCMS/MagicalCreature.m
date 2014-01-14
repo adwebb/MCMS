@@ -1,13 +1,15 @@
 //
-//  MythicalCreature.m
+//  MagicalCreature.m
 //  MCMS
 //
 //  Created by Brad Shultz on 1/14/14.
 //  Copyright (c) 2014 Brad Shultz. All rights reserved.
 //
 
-#import "MythicalCreature.h"
+#import "MagicalCreature.h"
 
-@implementation MythicalCreature
+@implementation MagicalCreature
+@synthesize name;
+@synthesize description;
 
 @end

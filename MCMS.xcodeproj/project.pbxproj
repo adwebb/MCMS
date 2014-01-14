@@ -21,6 +21,9 @@
 		E091BFEB1885D4E30061D285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E091BFCD1885D4E30061D285 /* UIKit.framework */; };
 		E091BFF31885D4E30061D285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E091BFF11885D4E30061D285 /* InfoPlist.strings */; };
 		E091BFF51885D4E30061D285 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E091BFF41885D4E30061D285 /* MCMSTests.m */; };
+		E091C0001885D6200061D285 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = E091BFFF1885D6200061D285 /* MagicalCreature.m */; };
+		E091C0051885E0510061D285 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E091C0041885E0510061D285 /* CheckMate.framework */; };
+		E091C0081885E1E30061D285 /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E091C0071885E1E30061D285 /* CreatureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		E091BFF01885D4E30061D285 /* MCMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMSTests-Info.plist"; sourceTree = "<group>"; };
 		E091BFF21885D4E30061D285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E091BFF41885D4E30061D285 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
+		E091BFFE1885D6200061D285 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		E091BFFF1885D6200061D285 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		E091C0041885E0510061D285 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
+		E091C0061885E1E30061D285 /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
+		E091C0071885E1E30061D285 /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E091C0051885E0510061D285 /* CheckMate.framework in Frameworks */,
 				E091BFCC1885D4E30061D285 /* CoreGraphics.framework in Frameworks */,
 				E091BFCE1885D4E30061D285 /* UIKit.framework in Frameworks */,
 				E091BFCA1885D4E30061D285 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		E091BFC81885D4E30061D285 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E091C0041885E0510061D285 /* CheckMate.framework */,
 				E091BFC91885D4E30061D285 /* Foundation.framework */,
 				E091BFCB1885D4E30061D285 /* CoreGraphics.framework */,
 				E091BFCD1885D4E30061D285 /* UIKit.framework */,
@@ -115,8 +125,12 @@
 				E091BFD81885D4E30061D285 /* AppDelegate.h */,
 				E091BFD91885D4E30061D285 /* AppDelegate.m */,
 				E091BFDB1885D4E30061D285 /* Main.storyboard */,
+				E091C0061885E1E30061D285 /* CreatureViewController.h */,
+				E091C0071885E1E30061D285 /* CreatureViewController.m */,
 				E091BFDE1885D4E30061D285 /* ViewController.h */,
 				E091BFDF1885D4E30061D285 /* ViewController.m */,
+				E091BFFE1885D6200061D285 /* MagicalCreature.h */,
+				E091BFFF1885D6200061D285 /* MagicalCreature.m */,
 				E091BFE11885D4E30061D285 /* Images.xcassets */,
 				E091BFD01885D4E30061D285 /* Supporting Files */,
 			);
@@ -252,6 +266,8 @@
 				E091BFE01885D4E30061D285 /* ViewController.m in Sources */,
 				E091BFDA1885D4E30061D285 /* AppDelegate.m in Sources */,
 				E091BFD61885D4E30061D285 /* main.m in Sources */,
+				E091C0081885E1E30061D285 /* CreatureViewController.m in Sources */,
+				E091C0001885D6200061D285 /* MagicalCreature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +394,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bradshultz/Desktop/git,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
 				INFOPLIST_FILE = "MCMS/MCMS-Info.plist";
@@ -391,6 +411,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bradshultz/Desktop/git,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
 				INFOPLIST_FILE = "MCMS/MCMS-Info.plist";
