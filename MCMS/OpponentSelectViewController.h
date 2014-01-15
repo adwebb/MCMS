@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MagicalCreature.h"
 
 @interface OpponentSelectViewController : UIViewController
+@property NSArray* creatures;
+@property MagicalCreature* playerCreature;
+@property int playerPower;
 
 @end

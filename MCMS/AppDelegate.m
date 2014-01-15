@@ -2,18 +2,18 @@
 //  AppDelegate.m
 //  MCMS
 //
-//  Created by Brad Shultz on 1/14/14.
-//  Copyright (c) 2014 Brad Shultz. All rights reserved.
+//  Created by Andrew Webb on 1/14/14.
+//  Copyright (c) 2014 Andrew Webb. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import <CheckMate/CheckMate.h>
+//#import <CheckMate/CheckMate.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [CheckMate initializeFramework:@"c5d81b52030ae54d1298652a74288fbe"];
+    //[CheckMate initializeFramework:@"c5d81b52030ae54d1298652a74288fbe"];
     return YES;
 }
 							

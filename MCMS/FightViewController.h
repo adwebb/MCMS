@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MagicalCreature.h"
 
 @interface FightViewController : UIViewController
-
+@property MagicalCreature* player;
+@property MagicalCreature* opponent;
+@property NSString* opponentName;
+@property int playerPower;
+@property int opponentPower;
 @end

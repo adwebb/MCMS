@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24D013D1885FC220087DC31 /* MagicalCreatures in Resources */ = {isa = PBXBuildFile; fileRef = C24D013C1885FC220087DC31 /* MagicalCreatures */; };
+		C24D01411886044B0087DC31 /* CreatureImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24D01401886044B0087DC31 /* CreatureImages.xcassets */; };
+		C24D0143188608DF0087DC31 /* centaurDon.png in Resources */ = {isa = PBXBuildFile; fileRef = C24D0142188608DF0087DC31 /* centaurDon.png */; };
+		C24D014518860C4A0087DC31 /* hobbitMax.png in Resources */ = {isa = PBXBuildFile; fileRef = C24D014418860C4A0087DC31 /* hobbitMax.png */; };
+		C24D0147188628C20087DC31 /* wolpertinger.png in Resources */ = {isa = PBXBuildFile; fileRef = C24D0146188628C20087DC31 /* wolpertinger.png */; };
+		C24D014A18865F230087DC31 /* OpponentSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24D014918865F230087DC31 /* OpponentSelectViewController.m */; };
+		C24D014D18866E810087DC31 /* FightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24D014C18866E810087DC31 /* FightViewController.m */; };
 		E091BFCA1885D4E30061D285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E091BFC91885D4E30061D285 /* Foundation.framework */; };
 		E091BFCC1885D4E30061D285 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E091BFCB1885D4E30061D285 /* CoreGraphics.framework */; };
 		E091BFCE1885D4E30061D285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E091BFCD1885D4E30061D285 /* UIKit.framework */; };
@@ -22,7 +29,6 @@
 		E091BFF31885D4E30061D285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E091BFF11885D4E30061D285 /* InfoPlist.strings */; };
 		E091BFF51885D4E30061D285 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E091BFF41885D4E30061D285 /* MCMSTests.m */; };
 		E091C0001885D6200061D285 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = E091BFFF1885D6200061D285 /* MagicalCreature.m */; };
-		E091C0051885E0510061D285 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E091C0041885E0510061D285 /* CheckMate.framework */; };
 		E091C0081885E1E30061D285 /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E091C0071885E1E30061D285 /* CreatureViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C24D013C1885FC220087DC31 /* MagicalCreatures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MagicalCreatures; sourceTree = "<group>"; };
+		C24D01401886044B0087DC31 /* CreatureImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CreatureImages.xcassets; sourceTree = "<group>"; };
+		C24D0142188608DF0087DC31 /* centaurDon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centaurDon.png; sourceTree = "<group>"; };
+		C24D014418860C4A0087DC31 /* hobbitMax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hobbitMax.png; sourceTree = "<group>"; };
+		C24D0146188628C20087DC31 /* wolpertinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wolpertinger.png; sourceTree = "<group>"; };
+		C24D014818865F230087DC31 /* OpponentSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponentSelectViewController.h; sourceTree = "<group>"; };
+		C24D014918865F230087DC31 /* OpponentSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponentSelectViewController.m; sourceTree = "<group>"; };
+		C24D014B18866E810087DC31 /* FightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightViewController.h; sourceTree = "<group>"; };
+		C24D014C18866E810087DC31 /* FightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FightViewController.m; sourceTree = "<group>"; };
 		E091BFC61885D4E30061D285 /* MCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E091BFC91885D4E30061D285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E091BFCB1885D4E30061D285 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,7 +73,6 @@
 		E091BFF41885D4E30061D285 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
 		E091BFFE1885D6200061D285 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		E091BFFF1885D6200061D285 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
-		E091C0041885E0510061D285 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
 		E091C0061885E1E30061D285 /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
 		E091C0071885E1E30061D285 /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E091C0051885E0510061D285 /* CheckMate.framework in Frameworks */,
 				E091BFCC1885D4E30061D285 /* CoreGraphics.framework in Frameworks */,
 				E091BFCE1885D4E30061D285 /* UIKit.framework in Frameworks */,
 				E091BFCA1885D4E30061D285 /* Foundation.framework in Frameworks */,
@@ -110,7 +123,6 @@
 		E091BFC81885D4E30061D285 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E091C0041885E0510061D285 /* CheckMate.framework */,
 				E091BFC91885D4E30061D285 /* Foundation.framework */,
 				E091BFCB1885D4E30061D285 /* CoreGraphics.framework */,
 				E091BFCD1885D4E30061D285 /* UIKit.framework */,
@@ -125,12 +137,17 @@
 				E091BFD81885D4E30061D285 /* AppDelegate.h */,
 				E091BFD91885D4E30061D285 /* AppDelegate.m */,
 				E091BFDB1885D4E30061D285 /* Main.storyboard */,
+				C24D014B18866E810087DC31 /* FightViewController.h */,
+				C24D014C18866E810087DC31 /* FightViewController.m */,
+				C24D014818865F230087DC31 /* OpponentSelectViewController.h */,
+				C24D014918865F230087DC31 /* OpponentSelectViewController.m */,
 				E091C0061885E1E30061D285 /* CreatureViewController.h */,
 				E091C0071885E1E30061D285 /* CreatureViewController.m */,
 				E091BFDE1885D4E30061D285 /* ViewController.h */,
 				E091BFDF1885D4E30061D285 /* ViewController.m */,
 				E091BFFE1885D6200061D285 /* MagicalCreature.h */,
 				E091BFFF1885D6200061D285 /* MagicalCreature.m */,
+				C24D01401886044B0087DC31 /* CreatureImages.xcassets */,
 				E091BFE11885D4E30061D285 /* Images.xcassets */,
 				E091BFD01885D4E30061D285 /* Supporting Files */,
 			);
@@ -140,6 +157,10 @@
 		E091BFD01885D4E30061D285 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C24D0146188628C20087DC31 /* wolpertinger.png */,
+				C24D0142188608DF0087DC31 /* centaurDon.png */,
+				C24D014418860C4A0087DC31 /* hobbitMax.png */,
+				C24D013C1885FC220087DC31 /* MagicalCreatures */,
 				E091BFD11885D4E30061D285 /* MCMS-Info.plist */,
 				E091BFD21885D4E30061D285 /* InfoPlist.strings */,
 				E091BFD51885D4E30061D285 /* main.m */,
@@ -242,8 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24D013D1885FC220087DC31 /* MagicalCreatures in Resources */,
 				E091BFE21885D4E30061D285 /* Images.xcassets in Resources */,
 				E091BFD41885D4E30061D285 /* InfoPlist.strings in Resources */,
+				C24D014518860C4A0087DC31 /* hobbitMax.png in Resources */,
+				C24D01411886044B0087DC31 /* CreatureImages.xcassets in Resources */,
+				C24D0147188628C20087DC31 /* wolpertinger.png in Resources */,
+				C24D0143188608DF0087DC31 /* centaurDon.png in Resources */,
 				E091BFDD1885D4E30061D285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +293,9 @@
 				E091BFDA1885D4E30061D285 /* AppDelegate.m in Sources */,
 				E091BFD61885D4E30061D285 /* main.m in Sources */,
 				E091C0081885E1E30061D285 /* CreatureViewController.m in Sources */,
+				C24D014D18866E810087DC31 /* FightViewController.m in Sources */,
 				E091C0001885D6200061D285 /* MagicalCreature.m in Sources */,
+				C24D014A18865F230087DC31 /* OpponentSelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +512,7 @@
 				E091BFFA1885D4E30061D285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E091BFFB1885D4E30061D285 /* Build configuration list for PBXNativeTarget "MCMSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				E091BFFD1885D4E30061D285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
